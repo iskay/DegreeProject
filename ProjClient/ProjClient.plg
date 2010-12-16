@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ProjClient - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSPE374.TMP" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ProjClient.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\ProjClient\MySocket.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\ProjClient\ProjClientDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPE374.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPE375.TMP" with contents
+[
+vfw32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/ProjClient.pdb" /machine:I386 /out:"Release/ProjClient.exe" 
+".\Release\MySocket.obj"
+".\Release\ProjClient.obj"
+".\Release\ProjClientDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\coder.obj"
+".\Release\countbit.obj"
+".\Release\dct.obj"
+".\Release\Global.obj"
+".\Release\huffman.obj"
+".\Release\libr263.obj"
+".\Release\mot_est.obj"
+".\Release\pred.obj"
+".\Release\quant.obj"
+".\Release\rlib.obj"
+".\Release\stream.obj"
+".\Release\convert.obj"
+".\Release\DGlobal.obj"
+".\Release\GetBits.obj"
+".\Release\GetBlk.obj"
+".\Release\GetHdr.obj"
+".\Release\GetPic.obj"
+".\Release\GetVlc.obj"
+".\Release\Idct.obj"
+".\Release\Idctref.obj"
+".\Release\Indices.obj"
+".\Release\main.obj"
+".\Release\Recon.obj"
+".\Release\Sac.obj"
+".\Release\Sactbls.obj"
+".\Release\Tmndec.obj"
+".\Release\YuvToRgb.obj"
+".\Release\ProjClient.res"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPE375.TMP"
+<h3>Output Window</h3>
+Compiling...
+MySocket.cpp
+ProjClientDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ProjClient.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

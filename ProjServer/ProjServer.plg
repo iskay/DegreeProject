@@ -1,0 +1,159 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ProjServer - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x1009 /fo"Release/ProjServer.res" /d "NDEBUG" /d "_AFXDLL" "C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\ProjServer.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP4073.TMP" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ProjServer.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\CapObj.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\MySocket.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\ProjServer.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\ProjServerDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\Serial.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\encoder\coder.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\encoder\countbit.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\encoder\dct.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\encoder\Global.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\encoder\huffman.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\encoder\libr263.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\encoder\mot_est.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\encoder\pred.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\encoder\quant.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\encoder\rlib.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\encoder\stream.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\decoder\convert.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\decoder\DGlobal.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\decoder\GetBits.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\decoder\GetBlk.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\decoder\GetHdr.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\decoder\GetPic.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\decoder\GetVlc.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\decoder\Idct.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\decoder\Idctref.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\decoder\Indices.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\decoder\main.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\decoder\Recon.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\decoder\Sac.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\decoder\Sactbls.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\decoder\Tmndec.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\decoder\YuvToRgb.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP4073.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP4074.TMP" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ProjServer.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP4074.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP4075.TMP" with contents
+[
+vfw32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/ProjServer.pdb" /machine:I386 /out:"Release/ProjServer.exe" 
+".\Release\CapObj.obj"
+".\Release\MySocket.obj"
+".\Release\ProjServer.obj"
+".\Release\ProjServerDlg.obj"
+".\Release\Serial.obj"
+".\Release\StdAfx.obj"
+".\Release\coder.obj"
+".\Release\countbit.obj"
+".\Release\dct.obj"
+".\Release\Global.obj"
+".\Release\huffman.obj"
+".\Release\libr263.obj"
+".\Release\mot_est.obj"
+".\Release\pred.obj"
+".\Release\quant.obj"
+".\Release\rlib.obj"
+".\Release\stream.obj"
+".\Release\convert.obj"
+".\Release\DGlobal.obj"
+".\Release\GetBits.obj"
+".\Release\GetBlk.obj"
+".\Release\GetHdr.obj"
+".\Release\GetPic.obj"
+".\Release\GetVlc.obj"
+".\Release\Idct.obj"
+".\Release\Idctref.obj"
+".\Release\Indices.obj"
+".\Release\main.obj"
+".\Release\Recon.obj"
+".\Release\Sac.obj"
+".\Release\Sactbls.obj"
+".\Release\Tmndec.obj"
+".\Release\YuvToRgb.obj"
+".\Release\ProjServer.res"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP4075.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CapObj.cpp
+MySocket.cpp
+ProjServer.cpp
+ProjServerDlg.cpp
+Serial.cpp
+coder.cpp
+C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\encoder\coder.cpp(120) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\encoder\coder.cpp(1079) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+countbit.cpp
+dct.cpp
+C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\encoder\dct.cpp(73) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\encoder\dct.cpp(73) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\encoder\dct.cpp(73) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\encoder\dct.cpp(73) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\encoder\dct.cpp(73) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\encoder\dct.cpp(74) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\encoder\dct.cpp(74) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\encoder\dct.cpp(74) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\encoder\dct.cpp(78) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+Global.cpp
+huffman.cpp
+libr263.cpp
+mot_est.cpp
+pred.cpp
+quant.cpp
+rlib.cpp
+stream.cpp
+convert.cpp
+C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\decoder\convert.cpp(25) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\decoder\convert.cpp(26) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\decoder\convert.cpp(27) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\decoder\convert.cpp(28) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\decoder\convert.cpp(29) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\decoder\convert.cpp(30) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\decoder\convert.cpp(31) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\Backup\Copy of ProjServer\decoder\convert.cpp(32) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+DGlobal.cpp
+GetBits.cpp
+GetBlk.cpp
+Generating Code...
+Compiling...
+GetHdr.cpp
+GetPic.cpp
+GetVlc.cpp
+Idct.cpp
+Idctref.cpp
+Indices.cpp
+main.cpp
+Recon.cpp
+Sac.cpp
+Sactbls.cpp
+Tmndec.cpp
+YuvToRgb.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ProjServer.exe - 0 error(s), 19 warning(s)
+</pre>
+</body>
+</html>
